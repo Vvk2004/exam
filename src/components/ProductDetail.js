@@ -31,7 +31,7 @@ const ProductDetail = () => {
                             height: { sm: '500px', xs: '200px' },
                             borderRadius: 2,
                             boxShadow: 2,
-                            objectFit: 'contain', 
+                            objectFit: 'contain', // Keep aspect ratio
                         }}
                     />
                 </Grid>
